@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Générateur de discours politiques aléatoires, se basant sur l'effet Barnum - Réalisé dans le cadre d'une formation JS/jQuery débutant">
+	<title>L'effet Barnum - Générateur de discours politiques</title>
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<meta property="og:title" content="L'effet Barnum - Générateur de discours politiques" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://etsik.com/barnum/" />
+	<meta property="og:image" content="http://etsik.com/barnum/effet-barnum.jpg" />
+	<meta name="viewport" content="width=device-width">
+
+</head>
+<body>
+
+	<h1>
+		<img src="effet-barnum.jpg" alt="femme déguisée en Einsten avec l'effet Barnum marqué sur la manche"/>	
+	Effet Barnum
+	</h1>
+
+	<hr/>
+	
+	<p>
+		Bienvenu sur le générateur de discours politique.<br/>
+		Combien de phrase.s voulez-vous : 
+		<select name="nb" id="nb">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+		</select>
+		
+		<button id="generate">Générer</button>
+		
+	</p>
+
+	<div id="barnum">
+		<div id="barnumText"></div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
